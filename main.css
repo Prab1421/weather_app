@@ -23,12 +23,21 @@ body {
 }
 
 .weather-input {
-    width: 40%;
+    width: 25%;
     position: fixed;
     inset: 0;
     background-color: #78c1f3;
     padding: 1rem 2.5rem;
     z-index: 10;
+}
+
+.weatherIcon {
+    background-position: 50% !important;
+    background-repeat: no-repeat !important;
+    background-size: contain;
+    display: block;
+    height: 25%;
+    margin: 2rem auto;
 }
 
 .input-group {
@@ -65,10 +74,10 @@ body {
 }
 
 .weather-output {
-    width: 60%;
+    width: 75%;
     position: fixed;
     inset: 0;
-    margin-left: 40%;
+    margin-left: 25%;
     padding: 2rem;
     background-color: #f6f6f6;
     overflow: auto;
