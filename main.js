@@ -71,7 +71,6 @@ function findUserLocation() {
                     UVvalue.innerHTML = weatherData.current.uvi;
                     Pvalue.innerHTML = `${weatherData.current.pressure}<span> hPa</span>`;
 
-                    // Populate the 7-day forecast
                     Forecast.innerHTML = "";
                     weatherData.daily.forEach(day => {
                         let forecastDiv = document.createElement("div");
