@@ -15,7 +15,7 @@ const userLocation = document.getElementById("userlocation"),
     Pvalue = document.getElementById("Pvalue"),
     Forecast = document.querySelector(".forecast");
 
-const API_KEY = "YOUR_API_KEY"; 
+const API_KEY = "09f6d14c99fa4552a834dd479870a573"; 
 
 const WEATHER_API_ENDPOINT = `https://api.openweathermap.org/data/2.5/weather?appid=${API_KEY}&units=metric&q=`;
 const WEATHER_DATA_ENDPOINT = `https://api.openweathermap.org/data/2.5/onecall?appid=${API_KEY}&exclude=minutely&units=metric&`;
